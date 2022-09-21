@@ -1,0 +1,85 @@
+General Instruction: 
+    Compress all files and submit the compressed file. 
+    It is expected that there are 5 files in the compressed file (1 pdf, 4 c programs). 
+    Compressed file format <lastname>_<firstname>_assignment1.zip
+
+
+I.  The following questions will need to be saved in a pdf file. 
+        The file format of the pdf file is <lastname>_<firstname>_assignment1.pdf:
+
+    1.  Write a statement that asks the user to type three integer and
+            another statement that stores the user responses into first, second, third.
+ 
+    2.  List 3 standard data types of C.
+ 
+    3.  The average pH of citrus fruits is 2.2, and this value has been stored
+            in the variable avg_citrus_pH Provide a statement to display this information
+            in a readable way.
+ 
+    4.  Write an algorithm that allows for the input of an integer value,
+            doubles it, subtracts 10, and displays the result.
+    
+    5.  Given the following declarations:
+
+            #define PI 3.14159
+            #define MAX_I 1000
+            double x, y;
+            int a, b, i;
+
+
+Indicate which of the following statements are valid, and find the value stored by each
+    valid statement. Also indicate which are invalid and why. Assume that a is 3, b is 4,
+    and y is -1.0:
+
+    a.  i = a % b;
+    b.  i = (989 − MAX_I) / a;
+    c.  i = b % a;
+    d.  x = PI * y;
+    e.  i = a / −b;
+
+    f.  x = a / b;  
+    g.  x = a % (a / b);
+    h.  i = b / 0;
+    i.  i = a %(990 − MAX_I);
+    j.  i = (MAX_I − 990) / a;
+    k.  x = a / y;
+    l.  i = PI * a;
+    m.  x = PI / y;
+    n.  x=b/a;
+    o.  i = (MAX_I − 990) % a;
+    p.  i = a % 0;
+    q.  I = a % (MAX_I−990);
+
+    
+
+Write pseudocode versions for 6-9.
+
+
+    6.  An algorithm that gets three data values x, y, and z as input and outputs 
+        the average of those three values.
+    
+    7.  An algorithm that gets the amount of electricity used in kilowatt-hours and 
+        the cost of electricity per kilowatt hour. Its output is the total amount of 
+        the electric bill, including an 8% sales tax.
+    
+    8.  An algorithm that is given three numbers corresponding to the number of times 
+        a race car driver has finished first, second, and third. The algorithm computes
+        and displays how many points that driver has earned given 5 points for a first, 
+        3 points for a second, and 1 point for a third place finish.
+
+
+II.  Each of the following questions will need to be saved as c file. The file format 
+    of the c file is <lastname>_<firstname>_assignment1_<question#>.c
+
+    1.  Write a program that asks the user to enter the radius of a circle and then
+        computes and displays the circle’s area. Use the formula.
+
+        Area = PI x Radius x Radius
+        where PI is the constant macro 3.14159
+
+    2.  Write a program to compute the average of three given numbers.
+    3.  Write a program to compute the seconds from a given Age.
+    4.  Write a program to swap values of two integer variables.
+
+
+
