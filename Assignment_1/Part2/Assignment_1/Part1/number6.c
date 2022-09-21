@@ -15,7 +15,6 @@ int main () {
     scanf("%lf", &z);
     
     average = (x + y + z) / 3;
-    
     printf("The average value is %f", average);
 
     return 0;
