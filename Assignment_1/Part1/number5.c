@@ -14,8 +14,8 @@ int main () {
 
 
 
-    // i = a % b;
-    // printf("A.\nThe answer is %d \n", i);
+    i = a % b;
+    printf("A.\nThe answer is %d \n", i);
 
     // i = (989 - MAX_I) / a;
     // printf("B.\nThe answer is %d \n", i);
