@@ -6,7 +6,7 @@ int main () {
     
     double radius, area;
 
-    printf("This program will the give the area of a circle depending on the radius given by the user. \nEnter the radius of the circle: ");
+    printf("This program will give the area of a circle depending on the radius given by the user. \nEnter the radius of the circle: ");
     scanf("%lf", &radius);
 
     area = PI * radius * radius;

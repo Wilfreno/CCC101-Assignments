@@ -14,8 +14,8 @@ int main () {
 
 
 
-    i = a % b;
-    printf("A.\nThe answer is %d \n", i);
+    // i = a % b;
+    // printf("A.\nThe answer is %d \n", i);
 
     // i = (989 - MAX_I) / a;
     // printf("B.\nThe answer is %d \n", i);
@@ -32,11 +32,11 @@ int main () {
     // x = a / b;
     // printf("F.\nThe answer is %f \n", x);
 
-    // x = a % (a / b);
-    // printf("G.\nThe answer is %f \n", x);
+    // // x = a % (a / b);
+    // // printf("G.\nThe answer is %f \n", x);
 
-    // i = b / 0;
-    // printf("H.\nThe answer is %d \n", i);
+    // // i = b / 0;
+    // // printf("H.\nThe answer is %d \n", i);
 
     // i = a % (990 - MAX_I);
     // printf("I.\nThe answer is %d \n", i);
@@ -59,8 +59,8 @@ int main () {
     // i = (MAX_I - 990) % a;
     // printf("O.\nThe answer is %d \n", i);
 
-    // i = a % 0;
-    // printf("P.\nThe answer is %d\n", i);
+    // // i = a % 0;
+    // // printf("P.\nThe answer is %d\n", i);
 
     // i = a % (MAX_I - 990);
     // printf("Q.\nThe answer is %d \n", i);
