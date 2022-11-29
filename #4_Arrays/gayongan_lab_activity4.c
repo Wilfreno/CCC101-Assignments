@@ -36,9 +36,14 @@ void option(){
 
     int operation, 
         arraySize;
- 
-    printf("\nOPERATIONS: \n[1] to Get the average of the array.\n[2] Get the largest element in the array.\n[3] Get the sum of the two arrays.\n[4] Exit.\n\n\nPlease choose: ");
-    scanf("%d", &operation);
+    
+    do
+    {
+        printf("\nOPERATIONS: \n[1] to Get the average of the array.\n[2] Get the largest element in the array.\n[3] Get the sum of the two arrays.\n[4] Exit.\n\n\nPlease choose: ");
+        scanf("%d", &operation);
+
+    } while (operation != 1 && operation != 2 && operation != 3 && operation != 4);
+    
 
     if(operation == 1)
     {
@@ -65,7 +70,6 @@ void option(){
 
         printf(" is %0.2lf. ", averageArray(intArray, arraySize));
     
-        // averageArray(intArray, arraySize);
     }
 
     if(operation == 2) {
