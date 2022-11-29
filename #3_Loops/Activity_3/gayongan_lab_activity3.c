@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
+
 
 
 void oddNumbers(int min, int max);
@@ -17,18 +16,8 @@ int main () {
     printf("Please input a minimum and maximum number. \nMinimum number: ");
     scanf("%d", &minimum);
 
-    printf("Please enter a valid number: ");
-    scanf("%d", &minimum);
-
     printf("Maximum number: ");
     scanf("%d", &maximum);
-
-    while (numIsValid(maximum) == 0)
-    {
-        printf("Please enter a valid number: ");
-        scanf("%d", &maximum);
-    }
-
     
 
     printf("Enter (1) to display the \"ODD\" numbers or enter (2) to display the \"EVEN\" numbers. \nDisplay \"ODD\" or \"EVEN\"?:");
